@@ -1,10 +1,19 @@
 package com.kanishka.ors.dto;
 
 public class FoodDTO {
+    private int id;
     private String name;
     private double price;
     private String imagePath;
     private int availability;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
